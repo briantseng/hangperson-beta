@@ -13,6 +13,13 @@ class HangpersonGame
     @wrong_guesses = ''
   end
 
+  def guess(letter)
+    if self.word.include? letter
+      self.guesses = self.guesses + letter
+      true
+    end
+  end
+
   def self.get_random_word
     require 'uri'
     require 'net/http'
