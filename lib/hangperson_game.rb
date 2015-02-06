@@ -14,7 +14,10 @@ class HangpersonGame
   end
 
   def guess(letter)
-    if self.word.include? letter
+    if
+      self.guesses.include? letter or self.wrong_guesses.include? letter
+      false
+    elsif self.word.include? letter
       self.guesses = self.guesses + letter
       true
     else

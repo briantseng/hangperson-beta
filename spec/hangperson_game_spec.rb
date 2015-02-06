@@ -46,15 +46,15 @@ describe HangpersonGame do
         @game = HangpersonGame.new('garply')
         guess_several_letters(@game, 'aq')
       end
-      it 'does not change correct guess list', :pending => true do
+      it 'does not change correct guess list', true do
         @game.guess('a')
         @game.guesses.should == 'a'
       end
-      it 'does not change wrong guess list', :pending => true do
+      it 'does not change wrong guess list', true do
         @game.guess('q')
         @game.wrong_guesses.should == 'q'
       end
-      it 'returns false', :pending => true do
+      it 'returns false', true do
         @game.guess('a').should be(false)
         @game.guess('q').should be(false)
       end
