@@ -38,6 +38,16 @@ class HangpersonGame
     end
   end
 
+  def check_win_or_lose
+    if self.wrong_guesses.length > 6
+      :lose
+    elsif !self.word_with_guesses.include? '-'
+      :win
+    else
+      :play
+    end
+  end
+
   def self.get_random_word
     require 'uri'
     require 'net/http'
