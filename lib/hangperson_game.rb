@@ -17,6 +17,8 @@ class HangpersonGame
     if self.word.include? letter
       self.guesses = self.guesses + letter
       true
+    else
+      self.wrong_guesses = self.wrong_guesses + letter
     end
   end
 

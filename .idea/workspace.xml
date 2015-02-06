@@ -30,12 +30,14 @@
       <file leaf-file-name="hangperson_game_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/hangperson_game_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5762712" vertical-offset="38" max-vertical-offset="1710">
-              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.12372881" vertical-offset="89" max-vertical-offset="1278">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding>
                 <element signature="e#120#229#0" expanded="false" />
                 <element signature="e#247#415#0" expanded="false" />
-                <element signature="e#1220#1770#0" expanded="false" />
+                <element signature="e#465#799#0" expanded="false" />
+                <element signature="e#826#1158#0" expanded="false" />
+                <element signature="e#1196#1746#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -44,8 +46,8 @@
       <file leaf-file-name="hangperson_game.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/hangperson_game.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -213,7 +215,9 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -224,7 +228,9 @@
           <folding>
             <element signature="e#120#229#0" expanded="false" />
             <element signature="e#247#415#0" expanded="false" />
-            <element signature="e#1220#1770#0" expanded="false" />
+            <element signature="e#465#799#0" expanded="false" />
+            <element signature="e#826#1158#0" expanded="false" />
+            <element signature="e#1196#1746#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -262,20 +268,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/hangperson_game.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/hangperson_game_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5762712" vertical-offset="38" max-vertical-offset="1710">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.12372881" vertical-offset="89" max-vertical-offset="1278">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding>
             <element signature="e#120#229#0" expanded="false" />
             <element signature="e#247#415#0" expanded="false" />
-            <element signature="e#1220#1770#0" expanded="false" />
+            <element signature="e#465#799#0" expanded="false" />
+            <element signature="e#826#1158#0" expanded="false" />
+            <element signature="e#1196#1746#0" expanded="false" />
           </folding>
         </state>
       </provider>

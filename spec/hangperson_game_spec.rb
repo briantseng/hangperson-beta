@@ -33,11 +33,11 @@ describe HangpersonGame do
         @game = HangpersonGame.new('garply')
         @valid = @game.guess('z')
       end
-      it 'changes wrong guess list', :pending => true do
+      it 'changes wrong guess list', true do
         @game.guesses.should == ''
         @game.wrong_guesses.should == 'z'
       end
-      it 'returns true', :pending => true do
+      it 'returns true', true do
         @valid.should_not be(false)
       end
     end
