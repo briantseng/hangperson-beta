@@ -5,12 +5,16 @@ class HangpersonGame
 
   # Get a word from remote "random word" service
 
-  attr_accessor :word, :guesses, :wrong_guesses
+  attr_accessor :word, :guesses, :wrong_guesses, :word_with_guesses
 
   def initialize(new_word)
     @word = new_word
     @guesses = ''
     @wrong_guesses = ''
+    @word_with_guesses = ''
+    for i in 0..new_word.length
+      @word_with_guesses += '-'
+    end
   end
 
   def guess(letter)
