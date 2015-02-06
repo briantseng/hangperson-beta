@@ -12,7 +12,7 @@ class HangpersonGame
     @guesses = ''
     @wrong_guesses = ''
     @word_with_guesses = ''
-    for i in 0..new_word.length
+    for i in 0...new_word.length
       @word_with_guesses += '-'
     end
   end
@@ -20,14 +20,21 @@ class HangpersonGame
   def guess(letter)
     if not letter =~ /[[:alpha:]]/
       raise ArgumentError, 'Input is not a letter'
-    elsif
-      self.guesses.include? letter or self.wrong_guesses.include? letter
+    elsif self.guesses.include? letter or self.wrong_guesses.include? letter
       false
     elsif self.word.include? letter
       self.guesses = self.guesses + letter
+      update_word(letter)
       true
     else
       self.wrong_guesses = self.wrong_guesses + letter
+    end
+  end
+
+  def update_word(letter)
+    indices = (0 ... self.word.length).find_all { |i| self.word[i,1] == letter }
+    indices.each do |i|
+      self.word_with_guesses[i] = letter
     end
   end
 
