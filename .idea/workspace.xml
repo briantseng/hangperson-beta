@@ -27,26 +27,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hangperson_game_spec.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hangperson_game_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/hangperson_game_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.548388" vertical-offset="87" max-vertical-offset="1584">
-              <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.18644068" vertical-offset="88" max-vertical-offset="1044">
+              <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
               <folding>
                 <element signature="e#120#229#0" expanded="false" />
                 <element signature="e#247#415#0" expanded="false" />
                 <element signature="e#465#799#0" expanded="false" />
                 <element signature="e#826#1158#0" expanded="false" />
+                <element signature="e#1196#1710#0" expanded="false" />
+                <element signature="e#1733#2193#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hangperson_game.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hangperson_game.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/hangperson_game.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6376812" vertical-offset="0" max-vertical-offset="738">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -60,8 +62,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spec/hangperson_game_spec.rb" />
         <option value="$PROJECT_DIR$/lib/hangperson_game.rb" />
+        <option value="$PROJECT_DIR$/spec/hangperson_game_spec.rb" />
       </list>
     </option>
   </component>
@@ -229,6 +231,8 @@
             <element signature="e#247#415#0" expanded="false" />
             <element signature="e#465#799#0" expanded="false" />
             <element signature="e#826#1158#0" expanded="false" />
+            <element signature="e#1196#1710#0" expanded="false" />
+            <element signature="e#1733#2193#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -264,24 +268,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/hangperson_game.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/hangperson_game_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.548388" vertical-offset="87" max-vertical-offset="1584">
-          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.18644068" vertical-offset="88" max-vertical-offset="1044">
+          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
           <folding>
             <element signature="e#120#229#0" expanded="false" />
             <element signature="e#247#415#0" expanded="false" />
             <element signature="e#465#799#0" expanded="false" />
             <element signature="e#826#1158#0" expanded="false" />
+            <element signature="e#1196#1710#0" expanded="false" />
+            <element signature="e#1733#2193#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/hangperson_game.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6376812" vertical-offset="0" max-vertical-offset="738">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>

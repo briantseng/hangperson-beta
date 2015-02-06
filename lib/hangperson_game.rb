@@ -14,7 +14,9 @@ class HangpersonGame
   end
 
   def guess(letter)
-    if
+    if not letter =~ /[[:alpha:]]/
+      raise ArgumentError, 'Input is not a letter'
+    elsif
       self.guesses.include? letter or self.wrong_guesses.include? letter
       false
     elsif self.word.include? letter
