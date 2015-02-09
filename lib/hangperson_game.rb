@@ -18,14 +18,8 @@ class HangpersonGame
   end
 
   def guess(letter)
-    if letter != nil
-      letter = letter.downcase
-    end
-    if letter == ''
-      raise ArgumentError, 'Input is empty string'
-    elsif letter == nil
-      raise ArgumentError, 'Input is nil'
-    elsif not letter =~ /[[:alpha:]]/
+    letter = letter.downcase
+    if not letter =~ /[[:alpha:]]/
       raise ArgumentError, 'Input is not a letter'
     elsif self.guesses.include? letter or self.wrong_guesses.include? letter
       false
