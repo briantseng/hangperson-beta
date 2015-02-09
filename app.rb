@@ -41,7 +41,7 @@ class HangpersonApp < Sinatra::Base
     letter = params[:guess].to_s[0]
     ### YOUR CODE HERE ###
     if @game.guesses.include? letter or @game.wrong_guesses.include? letter
-      flash[:message] = 'You have already used that letter'
+      flash[:message] = 'You have already used that letter.'
       redirect '/show'
     else
       begin
